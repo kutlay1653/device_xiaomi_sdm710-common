@@ -22,6 +22,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     fs_config_files
 
+# Board
+PRODUCT_USES_QCOM_HARDWARE := true
+PRODUCT_BOARD_PLATFORM := sdm710
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
