@@ -142,4 +142,6 @@ PRODUCT_PACKAGES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     libnl
-
+# HAL
+PRODUCT_PACKAGES += \
+    android.hardware.audio.common@2.0-util
