@@ -144,4 +144,8 @@ PRODUCT_PACKAGES += \
     libnl
 # HAL
 PRODUCT_PACKAGES += \
-    android.hardware.audio.common@2.0-util
+    android.hardware.audio.common@2.0-util \
+    vendor.xiaomi.hardware.displayfeature@1.0
+
+
+    
